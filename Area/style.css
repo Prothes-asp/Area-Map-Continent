@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: blueviolet;
+}
+.top-header{
+	position: sticky;
+	top: 0;
+	left: 0;
+	background: #c04080;
+	display: flex;
+	justify-content: center;
+}
+.top-header h3{
+	color: #00cc00;
+}
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top:200px;
+}
